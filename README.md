@@ -1,2 +1,6 @@
-# projekt.1
-pierwszy projekt
+# projekty
+
+inside: 
+
+- pierwszy projekt, personalny
+- odin-landing-page
