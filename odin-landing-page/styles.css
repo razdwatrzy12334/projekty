@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto';
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.first-section {
+    background-color: #1F2937;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 16px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+
+
+
+.footer {
+    background-color: #1F2937;
+}
+
+.pictures, .signup {
+    background-color: #fff;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button { 
+    background-color: #3882F6;
+    color: #fff;
+    padding: 8px 16px;
+}
