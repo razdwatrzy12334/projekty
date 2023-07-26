@@ -5,6 +5,7 @@
 body {
     font-family: 'Roboto';
     margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -71,7 +72,7 @@ span.header-logo {
     text-align: left;
 }
 
-p {
+left-side > p {
     font-size: 18px;
     color: #E5E7EB;
     margin: 6px;
@@ -100,7 +101,7 @@ a {
 span > button { 
     background-color: #3882F6;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     padding: 8px 32px;
     border: 0px;
@@ -109,49 +110,137 @@ span > button {
 
 /* second section of the page, title, with 4 pictures and description underneath */
 
-.second-section-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
 .second-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px;
+    padding-top: 30px;
+    width: ;
 }
 
 .picture-title {
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
 }
 
 .picture {
+    max-width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 0px;
+}
+
+.img-second-section {
+    outline: 3px solid blue !important;
+    /* width: 180px; */
+    height: 150px;
+    border-radius: 10px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* quote part */
+
+.quote-container {
+    background-color: #E5E7EB;
     display: flex;
-    justify-content: space-between;
-}
-
-.footer {
-    background-color: #1F2937;
-}
-
-
-
-
-
-
-.pictures, .signup {
-    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 140px;
 }
 
 .quote {
-    background-color: #E5E7EB;
+    max-width: 800px;
 }
 
+.quote-text > em > p {
+    text-indent: 600px;
+    margin-bottom: 0px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+/* sign-up section */
+
+.signup-container-all {
+    background-color: #fff;
+    color: #fff;
+    margin: 150px 180px;
+    font-size: 20px;
+}
+
+.signup-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.button-section-left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+
+.button-section-left > h3 {
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+
+.button-section-left > p {
+    margin-top: 5px;
+}
+
+.button-section-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-second {
+    background-color: #3882F6;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 32px;
+    border: 4px solid white;
+    border-color: #fff;
+    border-radius: 10px;
+}
+
+/* footer */
+
+.footer-container {
+    background-color: #1F2937;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    font-size: 20px;
+    color: #fff;
+    padding: 40px 65px;
+    word-spacing: 4px;
+}
